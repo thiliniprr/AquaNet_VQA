@@ -1,10 +1,10 @@
 data_config = {
-    'train_metadata_path': 'metadata/binary_train.csv',  # CSV containing audio URLs, Questions, Answers,filenames
-    'val_metadata_path': 'metadata/binary_val.csv',
+    'train_metadata_path': 'dataset/train.csv',  # CSV containing audio URLs, Questions, Answers,filenames
+    'val_metadata_path': 'dataset/val.csv',
     'test_metadata_path': 'metadata/binary_test.csv',
     'output_classes_file': 'metadata/output_classes.json',
 
-    'data_dir': 'dataset/audio_files',  # path to store downloaded data
+    'data_dir': 'dataset/image_files',  # path to store downloaded data
     'feat_dir': 'dataset/features',
     'pre_trained_word_embeddings_file': 'wiki-news-300d-1M.vec',
     'audio_embedding_size': 512
