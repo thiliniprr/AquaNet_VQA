@@ -1,0 +1,65 @@
+file_name,Modality,QuestionText,answer
+synpic48556,modality,was the mri taken with contrast?,no
+synpic32365,modality,is this a ct scan?,yes
+synpic29792,modality,was iv contrast given to the patient?,yes
+synpic43561,modality,was the ct scan taken with contrast?,yes
+synpic33904,modality,was the ct scan taken with contrast?,no
+synpic39583,modality,is this a noncontrast mri?,yes
+synpic27024,modality,is this a ct scan?,yes
+synpic48150,modality,was the ct scan taken with contrast?,yes
+synpic26892,modality,was gi contrast given to the patient?,no
+synpic48805,modality,was the ct scan taken with contrast?,yes
+synpic41996,modality,is this a noncontrast mri?,yes
+synpic26702,modality,is this an mri image?,no
+synpic36075,modality,is this a ct scan?,no
+synpic15874,modality,is this a noncontrast ct?,no
+synpic36276,modality,is 	this a t1 weighted image?,yes
+synpic38267,modality,was the mri taken with contrast?,no
+synpic55706,modality,is this a t2 weighted image?,no
+synpic51206,modality,is this an mri image?,no
+synpic46829,modality,is this a noncontrast ct?,yes
+synpic24706,modality,was gi contrast given to the patient?,no
+synpic32831,modality,is this a noncontrast ct?,no
+synpic33285,modality,was the ct scan taken with contrast?,no
+synpic55100,modality,was the ct scan taken with contrast?,no
+synpic54975,modality,is this a noncontrast mri?,yes
+synpic51170,modality,was the ct scan taken with contrast?,yes
+synpic27747,modality,is this a noncontrast ct?,yes
+synpic59702,modality,is this a noncontrast mri?,no
+synpic60197,modality,was iv contrast given to the patient?,yes
+synpic43772,modality,is this a ct scan?,yes
+synpic28138,modality,was the ct scan taken with contrast?,yes
+synpic41011,modality,is this a t2 weighted image?,no
+synpic25024,modality,is this a ct scan?,yes
+synpic35578,modality,is this a noncontrast mri?,yes
+synpic27197,modality,was gi contrast given to the patient?,no
+synpic31285,modality,is this an mri image?,no
+synpic40440,modality,was gi contrast given to the patient?,no
+synpic50733,modality,is this a noncontrast ct?,no
+synpic49262,modality,is this a t2 weighted image?,no
+synpic53951,modality,was the mri taken with contrast?,yes
+synpic52497,modality,is this a t2 weighted image?,no
+synpic34909,modality,is this a noncontrast mri?,yes
+synpic56154,modality,is this a t1 weighted image?,no
+synpic51407,modality,is this a ct scan?,yes
+synpic28715,modality,was the ct scan taken with contrast?,yes
+synpic53600,modality,is this a t2 weighted image?,no
+synpic40697,modality,is this a ct scan?,no
+synpic24310,modality,is this a noncontrast ct?,no
+synpic51770,modality,was gi contrast given to the patient?,no
+synpic37634,modality,is this a noncontrast mri?,no
+synpic24258,modality,is this a ct scan?,yes
+synpic21334,modality,is this an mri image?,yes
+synpic45842,modality,is 	this a t1 weighted image?,yes
+synpic55335,modality,is this an mri image?,yes
+synpic47476,abnormality,is there something wrong in the image?,yes
+synpic58354,abnormality,is this a normal ultrasound?,yes
+synpic39386,abnormality,does this image look normal?,yes
+synpic25627,abnormality,does this image look normal?,yes
+synpic49505,abnormality,is this image normal?,yes
+synpic28985,abnormality,is the ultrasound normal?,no
+synpic29794,abnormality,is this a normal ct scan?,no
+synpic45122,abnormality,is the ct scan normal?,no
+synpic100563,abnormality,is this image normal?,no
+synpic25614,abnormality,is there something wrong in the image?,no
+synpic38637,abnormality,is there an abnormality in the mri?,yes
