@@ -1,7 +1,7 @@
 data_config = {
-    'train_metadata_path': 'dataset/train.csv',  # CSV containing audio URLs, Questions, Answers,filenames
-    'val_metadata_path': 'dataset/val.csv',
-    'test_metadata_path': 'metadata/binary_test.csv',
+    'train_metadata_path': 'dataset/train_binary.csv',  # CSV containing audio URLs, Questions, Answers,filenames
+    'val_metadata_path': 'dataset/val_binary.csv',
+    'test_metadata_path': 'dataset/binary_test.csv',
     'output_classes_file': 'metadata/output_classes.json',
 
     'data_dir': 'dataset/image_files',  # path to store downloaded data
@@ -18,8 +18,8 @@ model_config = {
     # learning params
     'learning_rate': 0.001,
     'batch_size': 1,
-    'num_workers': 8,
-    'num_epochs': 50,
+    'num_workers': 1,
+    'num_epochs': 10,
 
     # audio network
     'audio_input_size': data_config['audio_embedding_size'],

@@ -53,6 +53,6 @@ def run_inference(model_dir, model_path):
 
 if __name__ == '__main__':
     device = ('cuda:0' if torch.cuda.is_available() else 'cpu')
-    model_dir = None  # "checkpoints/aquanet_20220208_141824/"
-    model_path = None  # "aquanet_epoch49.pth"
+    model_dir = "checkpoints/aquanet_20230531_191447/"
+    model_path =  "hp.pkl"
     run_inference(model_dir, model_path)

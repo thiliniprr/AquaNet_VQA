@@ -73,7 +73,7 @@ def train(pre_trained=None):
 
             optimizer.zero_grad()
             logits = model(audio_feat, text_feat)
-            l = loss(logits, label.long())
+            l = loss(logits, label.float())
             l.backward()
             optimizer.step()
             c_loss += l.item()

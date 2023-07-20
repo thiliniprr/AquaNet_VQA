@@ -18,7 +18,7 @@ class DataGenerator(Dataset):
 
         self.word_embedding_path = data_config['pre_trained_word_embeddings_file']
         self.word_embeddings = load_vectors(self.word_embedding_path)  # dict of all the {'word': [vector]} pairs
-        self.answers_dict = load_answers_dict(data_config['output_classes_file'])
+        #self.answers_dict = load_answers_dict(data_config['output_classes_file'])
 
     def __getitem__(self, item):
         audio_feat = self.load_audio_features(item)
@@ -37,9 +37,14 @@ class DataGenerator(Dataset):
         return audio_feat, question_embedding, label
 
     def load_audio_features(self, idx):
-        audio_feat_file = self.audio_fnames[idx][:-3] + 'npz'
-        data = np.load(os.path.join(self.feat_dir, audio_feat_file))
-        return data['embedding']
+        audio_feat_file = self.audio_fnames[idx][:-3] + '.npz'
+        #print()
+        try:
+            data = np.load(os.path.join(self.feat_dir, audio_feat_file))
+            return data['embedding']
+        except:
+            print(audio_feat_file)
+        
 
     def get_word_embeddings(self, input_text):
         words = input_text.split(' ')
